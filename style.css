@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+  display: block;
+}
+.mb8{
+  margin-bottom: 8px;
+}
+.mb16{
+  margin-bottom: 16px;
+}
+.mb24{
+  margin-bottom: 24px;
+}
+.mb32{
+  margin-bottom: 32px;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+.mb48{
+  margin-bottom: 48px;
+}
+.mb56{
+  margin-bottom: 56px;
+}
+.mb64{
+  margin-bottom: 64px;
+}
+.mgC{
+  margin: 0 auto;
+}
+.lh28{
+  line-height: 28px;
+}
+.fw-lighter{
+  font-weight: lighter;
+}
+.fw-no{
+  font-weight: normal;
+}
+
+body *{
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 600;
+}
+h2{
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: bold;
+}
+header{
+  background-image: url(/img/banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 960px;
+  background-size: cover;
+}
+.headerContent{
+  padding-top: 356px;
+  width: 308px;
+  color: #FFF;
+  margin: 0 auto;
+}
+.headerTitleSm{
+  line-height: 28px;
+}
+.headerContent h1{
+  font-size: 80px;
+  line-height: 94px;
+  font-weight: 900;
+}
+
+.headerText{
+  padding: 0 12.5px;
+  line-height: 35px;
+}
+
+.headerList{
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
+}
+.about{
+  width: 411px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aboutLine{
+  width: 384px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 31px;
+  margin: 0 auto 34px auto;
+}
+.aboutListItem{
+  line-height: 28px;
+  position: relative;
+}
+li.aboutListItem::before{
+  content:"";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius:50%;
+  top: 2px;
+  margin-left: -38px;
+  /* 圓寬度22px＋16px */
+}
+.brand{
+  background: #000;
+  color: #FFF;
+  padding-top: 64px;
+  padding-bottom: 160px;
+}
+.brandContent{
+  width: 496px;
+  text-align: center;
+  margin: 0 auto 48px auto;
+}
+
+p.brandText{
+  font-size: 20px;
+  line-height: 36.666px;
+  font-weight: normal;
+  text-align: center;
+}
+.brandTextNo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  }
+  .brandImg1{
+    width: 792px;
+    display: block;
+    margin: 0 auto 40px auto;
+  }
+  .brandImg{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .worksContent{
+    text-align: center;
+    padding-top: 64px;
+  }
+  .worksText{
+    line-height: 35px;
+  }
+  .worksTextNo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  }
+.works{
+  background-image: url(/img/photo-1561291386-5be50364cfb5.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.workTeam{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 104px;
+}
+.workTeam p{
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 56px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.workFlex{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  text-align: center;
+  padding-top: 64px;
+  background-color: #000000;
+  color: #FFF;
+  padding-bottom: 80px;
+}
+.contactListItem{
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
