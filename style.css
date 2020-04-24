@@ -218,12 +218,18 @@ p.brandText{
 .workTeamTopImgText{
   color: #FFFFFF;
   text-align: center;
-  padding-top: 8px;
-  padding-bottom: 48px;
+  padding-top: 16px;
+  padding-bottom: 56px;
   font-weight: lighter;
   font-size: 20px;
   line-height: 28px;
 }
+.workTeamTopImgText .worksTextNo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  }
 .workFlex{
   display: flex;
   justify-content: space-between;
