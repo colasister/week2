@@ -163,6 +163,7 @@ li.aboutListItem::before{
   color: #FFF;
   padding-top: 64px;
   padding-bottom: 160px;
+  m
 }
 .brandContent{
   width: 496px;
@@ -212,6 +213,7 @@ p.brandText{
 .workTeam{
   width: 1200px;
   padding-bottom: 104px;
+  margin: 0 auto;
 }
 .workTeam p{
   color: #FFFFFF;
